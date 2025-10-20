@@ -382,25 +382,25 @@
 // console.log( leepyear);
 
 
-// Calculate the average of the odd numbers in an array
-const nums = [5,6,11,12,98,5];
-function oddavg(numbers){
-    const odds = [];
-    for( const num of numbers){
-        if( num % 2 === 1){
-            odds.push(num)
-        }
-    }
-    let sum = 0;
-    for(const num of odds){
-        sum = sum + num;
-    }
-    const count = odds.length;
-    const avg = sum / count;
-    return avg
-}
-const avg = oddavg(nums)
-console.log(avg)
+// // Calculate the average of the odd numbers in an array
+// const nums = [5,6,11,12,98,5];
+// function oddavg(numbers){
+//     const odds = [];
+//     for( const num of numbers){
+//         if( num % 2 === 1){
+//             odds.push(num)
+//         }
+//     }
+//     let sum = 0;
+//     for(const num of odds){
+//         sum = sum + num;
+//     }
+//     const count = odds.length;
+//     const avg = sum / count;
+//     return avg
+// }
+// const avg = oddavg(nums)
+// console.log(avg)
 
 // Count how many 5s are in the array
 // // Count how many 25s are in the array
@@ -423,9 +423,6 @@ console.log(avg)
 // const countTwentyFives = countNumber(numbers, 25);
 // console.log('Number of 25s:', countTwentyFives);
 
-// const numbers = [51, 56, 12, 47, 59, 13, 588, 691, 3, 103, 5];
-// const avg = oddavg(numbers);
-// console.log( 'average of the odd numbers :', avg);
 
 // // -----------------------------------------------
 // // Calculate the average of the even numbers in an array
