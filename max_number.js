@@ -32,3 +32,20 @@ function maxheight(numbers){
 
 const height = maxheight(heights);
 console.log('your height is', height);
+
+// ------------------------------
+
+const num = [99,5.6, 6, 7, 9, 2, 3, 8, 11, 66, 88, 5, 25, 6,1];
+
+function number(lowernumber) {
+    let lower = lowernumber[0]; // ✅ assume first element is smallest
+    for (let i = 1; i < lowernumber.length; i++) {
+        if (lowernumber[i] < lower) {
+            lower = lowernumber[i]; // ✅ update lower if we find a smaller number
+        }
+    }
+    return lower; // ✅ return the smallest number found
+}
+
+const lowernumbers = number(num);
+console.log(lowernumbers);
